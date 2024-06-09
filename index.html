@@ -9,6 +9,16 @@
             margin: 0;
             padding: 0;
         }
+        .choose{
+            margin-top: 10px;
+        }
+        .choose a{
+            text-decoration: none;
+            box-sizing: border-box;
+            padding: 10px;
+            background: linear-gradient(to right,rgb(93, 132, 154),rgb(121, 16, 126));
+            color: #fff;
+        }
         .frame iframe{
             width: 700px;
             height: 600px;
@@ -30,11 +40,12 @@
 <body>
     <center>
     <div class="container">
+        <div class="choose"><a href="#l1">Click me to Choose Restaurants</a></div>
         <div class="frame">
             <iframe src="" frameborder="0" name="ed"></iframe>
         </div>
         <div class="heading">
-            <h1>Click To Choose The Restaurant</h1>
+            <h1 id="l1">Click To Choose The Restaurant</h1>
         </div>
         <div class="links">
             <a href="./restaurnt/paradise.html" target="ed">paradise Restaurant</a>
